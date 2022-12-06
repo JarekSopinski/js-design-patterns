@@ -1,3 +1,10 @@
+/**
+ * Definies relationship that you should have between low level modules and high level modules. 
+ * Low-level modules are concerned with low level things such as storage. 
+ * High-level modules should not directly depend on low-level modules. 
+ * They should instead depend on abstractions (abstract classes or interfeces).
+ */
+
 let Relationship = Object.freeze({
     parent: 0,
     child: 1,

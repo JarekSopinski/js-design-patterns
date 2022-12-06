@@ -1,3 +1,9 @@
+/**
+ * You have to segregate (split up) interfaces into different parts so that people don't implement more that they need. 
+ * I.e. don't force implementation of empty methods. 
+ * Don't put too much into an interfece, split it into separate interfeces.
+ */
+
 class Document {
 
 }

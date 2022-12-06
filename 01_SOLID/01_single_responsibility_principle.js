@@ -1,3 +1,8 @@
+/**
+ * Each class should have exactly one responsibilty.
+ * Connected to this is Separation of Concerns - splitting complicated algorithm into several parts that are related, making entire system easier to read, manage and refactor.
+ */
+
 const fs = require('fs');
 
 class Journal

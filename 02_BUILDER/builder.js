@@ -1,3 +1,7 @@
+/**
+ * When piecewise object construction is complicated, provide an API for doing it succinctly.
+ */
+
 class Tag {
 
     static get indentSize() { return 2; }

@@ -1,3 +1,8 @@
+/**
+ * You should be able to substitute a base type for a subtype. 
+ * If we have a method that takes base class, it should also equally be able to take derived (inherited) class, without breaking functionality.
+ */
+
 class Rectangle {
     constructor(width, height) {
         this._width = width;

@@ -1,3 +1,10 @@
+/**
+ * Classes should be open for extension, but closed for modification. 
+ * Modification: i.e. adding new methods. 
+ * Extension means usually inheritance. 
+ * Modifing finished, tested classes is not a good idea. A better approach is to use inheritance, i.e. specification classes.
+ */
+
 let Color = Object.freeze({
     red: 'red',
     green: 'green',
