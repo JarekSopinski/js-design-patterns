@@ -1,5 +1,6 @@
 /**
  * When piecewise object construction is complicated, provide an API for doing it succinctly.
+ * We build something in several different steps.
  */
 
 class Tag {
