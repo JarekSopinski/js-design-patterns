@@ -11,6 +11,8 @@ An iterator:
     - Keeps a reference to the current element
     - Knows how to move to a different element
 
+Stateful iterators cannot be recursive. However, 'yield' keyword allows for much more succinct iteration.
+
 ### Implementation
 
 JavaScript supports this through Symbol.iterator member, that returns an iterator object with a function called next(), that returns an object containing:
