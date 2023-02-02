@@ -16,3 +16,8 @@ Therefore we create an external component to handle rendering.
 
 ### Implementation
 
+In the 'classic' (best) implementation:
+
+1. Propagate an accept(Visitor v) method through the entire hierarchy
+2. Create a visitor with visitFoo(Foo), visitBar(Bar), ... for each element in the hierarchy.
+3. Each accept() simply calls visitor.visitXxx(this)
